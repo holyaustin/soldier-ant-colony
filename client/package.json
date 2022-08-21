@@ -1,5 +1,5 @@
 {
-  "name": "recyclant",
+  "name": "soldier-ant-colony",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite --port 3005",
