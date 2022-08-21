@@ -2,7 +2,7 @@
   "name": "recyclant",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3005",
     "build": "vite build",
     "serve": "vite preview"
   },
@@ -22,6 +22,7 @@
     "@zoralabs/nft-drop-contracts": "^1.0.1",
     "@zoralabs/v3": "^1.0.10",
     "@zoralabs/zdk": "^2.1.4",
+    "0xsequence": "^0.40.5",
     "autoprefixer": "10.4.5",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",

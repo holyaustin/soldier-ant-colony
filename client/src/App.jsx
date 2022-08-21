@@ -1,13 +1,13 @@
 
-import { Navbar, Welcome, Footer, Services } from "./components";
+import { Navbar, Landing, Footer, Roadmap } from "./components";
 
 const App = () => (
   <div className="min-h-screen">
-    <div className="bg-gradient-to-b from-blue-700 to-black">
+    <div className="bg-black">
       <Navbar />
-      <Welcome />
+      <Landing />
     </div>
-    <Services />
+    <Roadmap />
     <Footer />
   </div>
 );

@@ -1,3 +1,4 @@
 
-  export const talentMusicaAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  export const marketplaceAddress = "0x40F0BA6915be1Bf5ac01B06DE2f611445867e257"
+  export const epicGameAddress = "0xCB4BBD22F29EC7D45ecaA7Dc8FC52d5622aD039E"
   

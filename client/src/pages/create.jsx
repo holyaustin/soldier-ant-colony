@@ -1,10 +1,10 @@
-import { Navbar, Footer, MintMusic } from "../components";
+import { Navbar, Footer, MintCharacter } from "../components";
 
 const Create = () => (
   <div className="bg-gradient-to-b from-blue-700 to-black">
     <Navbar />
 
-    <MintMusic />
+    <MintCharacter />
     <Footer />
   </div>
 );

@@ -2,7 +2,8 @@ import React from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import logo from "../assets/mic.png";
+import ConnectSequence from "./sequencewallet.tsx";
+import logo from "../assets/logo.png";
 
 const NavBarItem = ({ title, classprops }) => (
   <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>
@@ -12,25 +13,27 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center p-4 bg-blue-700">
+    <nav className="w-full flex md:justify-center justify-between items-center p-4 bg-purple-800">
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className="sm:w-10 md:14 lg:w-20  cursor-pointer" />
+        <img src={logo} alt="logo" className="sm:w-8 md:w-18 lg:w-14  cursor-pointer" />
       </div>
-      <ul className="text-white lg:text-3xl md:flex hidden  items-center flex-initial">
+      <ul className="text-white lg:text-2xl md:flex hidden  items-center flex-initial">
         <Link to="/">Home</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <Link to="/create">New-Music</Link>
+        <Link to="/marketplace">MarketPlace</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <Link to="/explore">Explore</Link>
-        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <Link to="/live">Go-Live</Link>
+        <Link to="/create">collaborate</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-        <li className="text-white font-semibold bg-red-700 py-5 px-20 mx-8 sm:mx-3 sm:py-2 sm:px-8 rounded-full cursor-pointer hover:bg-yellow-500 hover:text-red-700">
+        {/**
+        <li className="text-black font-semibold bg-green-300 py-5 px-20 mx-8 sm:mx-3 sm:py-2 sm:px-8 rounded-full cursor-pointer hover:bg-green-800 hover:text-white ">
           <a href="https://discord.com" target="_blank" rel="noreferrer">
             Join our community
           </a>
         </li>
+         */}
+
+        <ConnectSequence />
+
       </ul>
       <div className="flex relative">
         {!toggleMenu && (
@@ -45,7 +48,7 @@ const Navbar = () => {
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
           >
             <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
-            {["Home", "New-Music", "Explore", "Go-Live"].map(
+            {["Home", "MarketPlace", "Collaborate", "RoadMap"].map(
               (item, index) => <NavBarItem key={item + index} title={item} classprops="my-2 text-lg" />,
             )}
           </ul>

@@ -1,0 +1,25 @@
+[package]
+name = "ipns_service"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+description = "ipns-service, a Marine wasi module"
+license = "Apache-2.0"
+
+[[bin]]
+name = "ipns_oracle"
+path = "src/main.rs"
+
+[dependencies]
+marine-rs-sdk = "0.6.11"
+log = "0.4.14"
+picorand = "0.1.1"
+fstrings = "0.2.3"
+serde_json = "1.0.57"
+
+[dev-dependencies]
+marine-rs-sdk-test = "0.1.11"
+
+[dev]
+[profile.release]
+opt-level = "s"
