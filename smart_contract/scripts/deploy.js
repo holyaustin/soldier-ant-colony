@@ -3,7 +3,8 @@ const fs = require('fs');
 
 async function main() {
   const gameContractFactory = await hre.ethers.getContractFactory('MyEpicGame');
-  const gameContract = await gameContractFactory.deploy(                        
+  const gameContract = await gameContractFactory.deploy( 
+    1528, // chainlink subscriptionID                            
     ["Simopelta colony", "Leptogenys Colony", "Labidus Colony", "Eciton Colony", "Dorylus Colony", "Cheliomyrmex Colony", "Aruru Colony", "Protanilla Colony"],       
     ["https://bafkreib5zbyv6ohsdruqcqvbb2v4raoufp5blb4zd4y2utlxyzoehvh7t4.ipfs.nftstorage.link/", 
     "https://bafkreibjl2zkqvk3wzk5xqmysndrqnzppudmydcjy5cvzrqva22r6j7rcm.ipfs.nftstorage.link/",
@@ -17,7 +18,7 @@ async function main() {
     [200, 300, 500, 200, 50, 150, 100, 200],
     "Zant the Repeller", // Boss name
     "https://bafkreihzrod47vg2uho2rmd7x76jqicus2m3e4tjdsbf6jm64o4v2o55qm.ipfs.nftstorage.link/", // Boss image
-    1000, // Boss hp
+    5000, // Boss hp
     100 // Boss attack damage
   );
   await gameContract.deployed();

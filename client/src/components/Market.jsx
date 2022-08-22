@@ -60,7 +60,8 @@ export default function Market() {
     setNfts(items);
     setLoadingState("loaded");
   }
-  async function view(nft) {
+
+  async function buyNft(nft) {
     /* needs the user to sign the transaction, so will use Web3Provider and sign it */
     console.log("item id clicked is", nft.tokenId);
     const web3Modal = new Web3Modal();
@@ -70,14 +71,14 @@ export default function Market() {
     const contract = new ethers.Contract(marketplaceAddress, Talent.abi, signer);
 
     /* user will be prompted to pay the asking proces to complete the transaction */
-    const transaction = await contract.createMarketSale(nft.tokenId);
+    const price = ethers.utils.parseUnits(nft.price.toString(), "ether");
+    const transaction = await contract.createMarketSale(nft.tokenId, {
+      value: price
+    });
     await transaction.wait();
-    console.log("Talent transaction completed, Talent should show in UI ");
-    const token = nft.tokenId;
-    console.log("token id is ", token);
     loadAssets();
-    // navigate("/view", { state: token });
   }
+
   if (loadingState === "loaded" && !nfts.length) {
     return (
       <div>
@@ -117,7 +118,7 @@ export default function Market() {
               </div>
 
               <div className="p-2 bg-black">
-                <button type="button" className="mt-4 w-full bg-purple-700 text-white font-bold py-2 px-12 rounded" onClick={() => view(nft)}>Buy</button>
+                <button type="button" className="mt-4 w-full bg-purple-700 text-white font-bold py-2 px-12 rounded" onClick={() => buyNft(nft)}>Buy</button>
               </div>
             </div>
           ))}

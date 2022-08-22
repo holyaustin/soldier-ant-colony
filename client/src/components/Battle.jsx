@@ -7,14 +7,14 @@ import SelectCharacter from "./SelectCharacter";
 import myEpicGame from "../utils/MyEpicGame.json";
 import Arena from "./Arena";
 import LoadingIndicator from "./LoadingIndicator";
-import landingimage from "../assets/bg1.gif"; // relative path to image
+// import landingimage from "../assets/bg1.gif"; // relative path to image
 import bgvideo from "../assets/foodsearch.mp4";
 
 /*
 * Just add transformCharacterData!
 */
-import { CONTRACT_ADDRESS, transformCharacterData } from "../constants";
-
+import { transformCharacterData } from "../constants";
+import { epicGameAddress as CONTRACT_ADDRESS } from "../../config";
 // Constants
 // const TWITTER_HANDLE = "holyaustin";
 // const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;

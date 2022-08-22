@@ -2,7 +2,8 @@
 const main = async () => {
     // eslint-disable-next-line no-undef
     const gameContractFactory = await hre.ethers.getContractFactory('MyEpicGame');
-    const gameContract = await gameContractFactory.deploy(                        
+    const gameContract = await gameContractFactory.deploy(  
+      1528, // chainlink subscriptionID                      
       ["Woman", "Aang", "Meta"],       
       ["bafybeicosobit5nnjojvvq6smnwmochkyeoccgv5343dckpbaub7bipohy", 
       "bafybeihv3mucelwvki252eevtfjioj5uqs7dqxn2emovq5baikmjgu3nc4", 

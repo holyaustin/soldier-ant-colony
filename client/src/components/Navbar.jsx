@@ -24,13 +24,12 @@ const Navbar = () => {
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <Link to="/create">collaborate</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        {/**
+
         <li className="text-black font-semibold bg-green-300 py-5 px-20 mx-8 sm:mx-3 sm:py-2 sm:px-8 rounded-full cursor-pointer hover:bg-green-800 hover:text-white ">
-          <a href="https://discord.com" target="_blank" rel="noreferrer">
-            Join our community
+          <a href="https://quickswap.exchange/#/swap" target="_blank" rel="noreferrer">
+            Swap / Buy Matic Here
           </a>
         </li>
-         */}
 
         <ConnectSequence />
 

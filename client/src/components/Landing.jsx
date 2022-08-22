@@ -25,7 +25,7 @@ const Landing = () => {
           <h1 className="text-4xl sm:text-7xl text-green-300 font-semibold">
             Soldier Ant Colony <br />
           </h1><br />
-          <p className="text-left mt-1 text-white font-light md:w-10/12 w-11/12 text-4xl font-black">
+          <p className="text-left mt-1 text-white md:w-10/12 w-11/12 text-4xl font-black">
             A community-based <br />
             play to earn game. <br /><br />
             Earn with our marketplace <br />

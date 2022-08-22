@@ -122,7 +122,7 @@ const MintCharacter = () => {
       <div className="flex justify-center">
         <div className="w-1/2 flex flex-col pb-12 ">
           <input
-            placeholder="Enter name Charcter"
+            placeholder="Enter name Character"
             className="mt-5 border rounded p-4 text-xl"
             onChange={(e) => updateFormInput({ ...formInput, name: e.target.value })}
           />
