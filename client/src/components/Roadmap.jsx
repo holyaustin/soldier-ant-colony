@@ -30,7 +30,7 @@ const Services = () => (
         <h1 className="text-black text-xl sm:text-3xl py-2 font-semibold">
           Collaborate to create Characters and weapons
         </h1><br /><br />
-        <p className="text-left my-2 text-white font-light md:w-11/12 w-11/12 text-2xl text-justify">
+        <p className="text-left my-2 text-white font-light md:w-11/12 w-11/12 text-2xl">
           Join the Community and start earning by creating soldier ant characters that other gamers can buy from our marketplace. Follow our docs on specifications to begin creating characters and weapons.
         </p>
         <br /><br />

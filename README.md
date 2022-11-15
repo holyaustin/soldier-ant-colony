@@ -10,19 +10,28 @@ This project implements the bionature's attack exhbited by one of the smallest c
 
 ## How to run this project locally
 Try running some of the following tasks:
+
 Fork this repo using
+
 git clone https://github.com/holyaustin/soldier-ant-colony.git
+
 cd soldier-ant-colony
+
 npx hardhat node
+
 npx hardhat run scripts/deploy.js --network localhost
+
 npm run build
 
 ## How to deploy to Polygon Mumbai  blockchain, update hardhat.config
 npx hardhat run scripts/deploy.js --network mumbai
+
 Game contract address: 0x84f8371Ce8AC1Bb8a2DA18C951b68DEadF68861B
-Game Mumbai Explorer Url: hhttps://mumbai.polygonscan.com/address/0x84f8371Ce8AC1Bb8a2DA18C951b68DEadF68861B
+
+Game Mumbai Explorer Url: https://mumbai.polygonscan.com/address/0x84f8371Ce8AC1Bb8a2DA18C951b68DEadF68861B
 
 Marketplace contract address: 0x827034961e8545f41c4fbE789C0aCc403Cd57840
+
 Marketplace Mumbai Explorer Url: https://mumbai.polygonscan.com/address/0x827034961e8545f41c4fbE789C0aCc403Cd57840
 
 
@@ -37,20 +46,32 @@ Final project deployed to Mumbai Testnet
    
 
 ## Protocols Used in this Project
+Chainlink (VRF and Automation)
+
 IPFS/Filecoin (NFT.Storage)
+
 Polygon 
+
 Sequence
+
 NFTPort
+
 Spheron 
+
 Alchemy RPC 
+
 Fluence
-Chainlink
+
 
 ## Tools Used in this Project
-React Js
+Vite.js (React Js)
+
 Solidity
-Ether.js
+
+Ethers.js
+
 Photoeditor
+
 Video Editor
 
 
