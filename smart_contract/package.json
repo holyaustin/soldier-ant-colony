@@ -20,6 +20,6 @@
     "hardhat": "^2.8.0"
   },
   "dependencies": {
-    "@chainlink/contracts": "^0.4.2"
+    "@chainlink/contracts": "^0.5.1"
   }
 }

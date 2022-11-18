@@ -2,7 +2,7 @@
 ### An epic web3 game that mimics the bio-inspration of soldier-ant for food hunt. Players finds it easy to play and earn as well as collaborating to make game characters.
 
 ## Introduction
-This project was built for Polygon BUIDL IT : Summer 2022 Hackathon sponsored by Polygon and hoated by DevPost. The project is submitted under the Gaming track and NFT track. 
+This project was built as part of the ChainLink Fall 2022 Hackathon sponsored by Chainlink and hosted by DevPost. The project is submitted as a game project. 
 
 ## Description
 
@@ -34,6 +34,15 @@ Marketplace contract address: 0x827034961e8545f41c4fbE789C0aCc403Cd57840
 
 Marketplace Mumbai Explorer Url: https://mumbai.polygonscan.com/address/0x827034961e8545f41c4fbE789C0aCc403Cd57840
 
+ChainLink Automations
+https://automation.chain.link/mumbai/43261894346530949533092616931341821180927010940935092033652627243623558033302
+
+https://automation.chain.link/mumbai/66917563105230795377420118538253557671397727604044084015799933012400452674696
+
+https://automation.chain.link/mumbai/75827409707677329829712821423665505239498509533533755332611578763980380744750
+
+
+ChainLink Automation Rewards contract: 0x0813d4a158d06784FDB48323344896B2B1aa0F85
 
 ## How to play
 Final project deployed to Mumbai Testnet
@@ -52,15 +61,11 @@ IPFS/Filecoin (NFT.Storage)
 
 Polygon 
 
-Sequence
+QuickNode RPC (Mumbai)
 
-NFTPort
+Sequence Wallet Integration
 
-Spheron 
-
-Alchemy RPC 
-
-Fluence
+Spheron and Vercel
 
 
 ## Tools Used in this Project
@@ -82,7 +87,7 @@ https://soldier-ant-colony-r8hz7.spheron.app
 
 https://soldier-ant-colony.vercel.app/
 
-Youtube Url: 
+Youtube Url: https://youtu.be/fI5rEawlyWc
 
 
 ## Connect with me and send me a mail

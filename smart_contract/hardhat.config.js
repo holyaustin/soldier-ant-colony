@@ -9,7 +9,7 @@ module.exports = {
     },
    
     mumbai: {
-      url: process.env.ALCHEMY_RPC, 
+      url: "https://red-yolo-county.matic-testnet.discover.quiknode.pro/735b95c35f376be2cc1e32e5da540cef149494cd/", 
       accounts: [process.env.PRIVATE_KEY],
     },
 
