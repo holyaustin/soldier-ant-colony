@@ -2,7 +2,7 @@
 ### An epic web3 game that mimics the bio-inspration of soldier-ant for food hunt. Players finds it easy to play and earn as well as collaborating to make game characters.
 
 ## Introduction
-This project was built as part of the ChainLink Fall 2022 Hackathon sponsored by Chainlink and hosted by DevPost. The project is submitted as a game project. 
+This project was built as part of the 2022 Hackathon. The project is submitted as a GameFi (NFT / Meterverse) Track project. 
 
 ## Description
 
@@ -87,7 +87,7 @@ https://soldier-ant-colony-r8hz7.spheron.app
 
 https://soldier-ant-colony.vercel.app/
 
-Youtube Url: https://youtu.be/fI5rEawlyWc
+Youtube Url: https://youtu.be/-N1akNGWuR8
 
 
 ## Connect with me and send me a mail
